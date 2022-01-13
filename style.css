@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    background: linear-gradient(120deg, #d30909, #8e44ad);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 420px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;    
+}
+
+.login_box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login_box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #d30909;
+    cursor: pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    height: 50px;
+    border: 2px solid;
+    background: #d30909;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #d30909;
+    transition: .5s;
+}
+
+.signup_link{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.signup_link a{
+    color: #d30909;
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    text-decoration: underline;
+}
